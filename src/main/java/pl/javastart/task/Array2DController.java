@@ -36,8 +36,8 @@ public class Array2DController {
     }
 
     private void fillArray() {
-        for (int i=0; i<array.length; i++) {
-            for (int j=0; j<array[i].length; j++) {
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
                 array[i][j] = i*j;
             }
         }
@@ -45,8 +45,8 @@ public class Array2DController {
 
     public void showArray() {
         String rowsSeparator = "-------";
-        for (int i=0; i<array[0].length; i++) {
-            for (int j=0; j<array.length; j++) {
+        for (int i = 0; i < array[0].length; i++) {
+            for (int j = 0; j < array.length; j++) {
                 System.out.printf("%5d |", array[j][i]);
             }
             System.out.println();
