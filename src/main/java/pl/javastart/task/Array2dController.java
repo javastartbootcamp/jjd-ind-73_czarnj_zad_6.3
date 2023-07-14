@@ -2,13 +2,13 @@ package pl.javastart.task;
 
 import java.util.Scanner;
 
-public class Array2DController {
+public class Array2dController {
     private final int maxColAmount = 100;
     private final int maxRowAmount = 100;
 
     private int[][] array;
 
-    public Array2DController() {
+    public Array2dController() {
         Scanner scanner = new Scanner(System.in);
         int rowAmount = getRowAmount(scanner);
         int colAmount = getColumnAmount(scanner);
